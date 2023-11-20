@@ -4,10 +4,10 @@ import Link from "next/link";
 
 function navBar() {
   return (
-    <header className="text-gray-600 bg-white w-full body-font z-50 fixed">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <header className="text-gray-600 bg-white w-full body-font z-50 md:fixed">
+      <div className="  container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Logo color="text-gray-600" />
-        <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <nav className="  md:ml-auto flex flex-wrap items-center  text-base justify-center">
           <Link href="/" className="mr-5 hover:text-gray-900">
             Home
           </Link>
