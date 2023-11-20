@@ -9,20 +9,16 @@ function Feedback() {
   return (
     <section className="bg-gray-800  body-font relative">
       <div className="container px-5 py-24 mx-auto  flex md:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden md:mr-10 p-10 flex items-end justify-start relative">
+        <div className="lg:w-2/3 md:w-1/2 w-full h-80 md:h-auto  bg-gray-300 rounded-lg overflow-hidden md:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
             height="100%"
             className="absolute inset-0"
-            frameBorder="0"
             title="map"
-            marginHeight="0"
-            marginWidth="0"
-            scrolling="no"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14509.477541530088!2d90.02218721426571!3d24.610950557969165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375620d12c535b49%3A0xb0f8ad41dd59e483!2sMadhupur!5e0!3m2!1sen!2sbd!4v1700504096831!5m2!1sen!2sbd"
             style={myStyle}
           ></iframe>
-          <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+          <div className="bg-white hidden  relative  lg:flex lg:w-full flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                 ADDRESS
@@ -46,7 +42,7 @@ function Feedback() {
             </div>
           </div>
         </div>
-        <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 p-8 mt-8 md:mt-0">
+        <div className="lg:w-1/3 md:w-1/2 w-full bg-white flex flex-col md:ml-auto  md:py-8 p-8 mt-8 md:mt-0">
           <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
             Feedback
           </h2>

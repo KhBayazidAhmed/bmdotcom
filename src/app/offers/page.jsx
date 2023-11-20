@@ -1,6 +1,6 @@
 function Offer() {
   return (
-    <section className="text-gray-600 body-font bg-gray-900 h-screen flex justify-center items-center">
+    <section className="text-gray-600 body-font lg:py-24 py-5  bg-gray-800  flex justify-center items-center">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4 text-center">
           <div className="p-4 sm:w-1/2 lg:w-1/3 w-full hover:scale-105 duration-500">
