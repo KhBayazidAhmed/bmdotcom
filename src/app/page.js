@@ -1,11 +1,16 @@
-import Image from "next/image";
-
 import HomeSection from "@/components/HomeSection";
+import NavBar from "@/components/NavBar";
+import HowTo from "@/components/HowTo";
+import Pricing from "@/components/Pricing";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <h1>hello from home</h1>
+      <NavBar />
       <HomeSection />
+      <Pricing />
+      <HowTo />
+      <Footer />
     </>
   );
 }
