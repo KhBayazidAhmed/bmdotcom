@@ -3,7 +3,7 @@ import howToImage from "../../public/images/howTo.png";
 
 function HowTo() {
   return (
-    <section className="text-gray-400 bg-gray-900 ">
+    <section className="text-gray-400 bg-gray-800 ">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="flex flex-wrap justify-center w-full">
           <div className="lg:w-3/5  md:pr-10 md:py-6">
